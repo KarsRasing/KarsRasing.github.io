@@ -6,7 +6,6 @@
     </head>
 
     <body>
-       
-        <a href="main.html"><h1>Toegepast Programmeren</h1><a>
+       <h1>Toegepast Programmeren</h1>
     </body>
 </HTML>
