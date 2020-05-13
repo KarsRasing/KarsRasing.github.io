@@ -98,3 +98,11 @@ ul {
   #images {
    text-align:center;
 }
+
+iframe:focus {
+  outline: none;
+}
+
+iframe[seamless] {
+  display: block;
+}
