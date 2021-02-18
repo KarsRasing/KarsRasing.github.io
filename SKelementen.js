@@ -80,14 +80,6 @@ var colors = [
     'S',
 ]
 
-var Namen [
-    'Water', 'Methaan', 'Ammoniak', 'Koolstofdioxide', 'Koolstofmono-oxide', 'Ethanol', 'Glucose', 'Suiker (sacharose)', 'Waterstof', 'Zuurstof', 'Stikstof', 'Fluor', 'Chloor', 'Broom', 'Jood',
-]
-
-var Molf [
-    'H<sub>2</sub>O (l)', 'CH<sub>4</sub> (g)', 'NH<sub>3</sub> (g)', 'CO<sub>2</sub> (g)', 'CO (g)', 'C<sub>2</sub>H<sub>6</sub>O (l)', 'C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> (s)', 'C<sub>12</sub>H<sub>22</sub>O<sub>11</sub> (s)', 'H<sub>2</sub> (g)',
-]
-
 function randomize() {
     var randomNumber = Math.floor(Math.random() * (elementen.length));
     document.getElementById('imageDisplay').innerHTML = elementen[randomNumber];
